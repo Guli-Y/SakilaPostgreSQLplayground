@@ -1,6 +1,6 @@
 ### 👋 If you want to practice your SQL and ETL skills, this is the repository you are looking for 
 
-[Sakila](https://dev.mysql.com/doc/sakila/en/sakila-structure.html) is sample database in MySQL, and its PostgreSQL version is called Pagila. Here you will create the Pagila database locally on your computer using the following instructions. Using the Pagila database, you will have a chance to practice your SQL skills and write some ETL pipelines.
+[Sakila](https://dev.mysql.com/doc/sakila/en/sakila-structure.html) is sample database in MySQL, and its PostgreSQL version is called Pagila. Here you will create the Pagila database locally on your computer using the following instructions. Using the Pagila database, you will have a chance to practice your SQL skills and write some ETL pipelines. The instruction here is written for WSL. If you have a different system, please adapt your code.
 
 ## 🐑 Create your Pagila Database locally
 
@@ -56,6 +56,12 @@
 ❗ All of these steps are only required for the first setup. After setup, if you want to access to the database again, you only need to run step 4 to start postgresql service and connect to the database with the following steps.
 
 ## 🐑🐑 Connect to your Pagila Database in jupyter notebook
+
+Before starting the next setion, install jupyter notebook if you haven't yet. 
+
+- From terminal: 
+
+    - pip install jupyter notebook
 
 👉 **ipython-sql** introduces a %sql (or %%sql) magic to your notebook allowing you to connect to a database
 
